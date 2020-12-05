@@ -10,7 +10,7 @@ import java.util.List;
 public class DayOne {
 
     public static void runday() throws Exception{
-        BufferedReader br = new BufferedReader(new FileReader(AdventApp.class.getResource("input.txt").getFile()));
+        BufferedReader br = new BufferedReader(new FileReader(AdventApp.class.getResource("day_one_input.txt").getFile()));
 
         String st;
         Integer num = null;
